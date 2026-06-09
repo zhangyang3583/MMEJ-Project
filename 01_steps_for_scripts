@@ -5,4 +5,4 @@ bash ~/MMEJ/seq_extract/_0_script/2_matched_seq_extract.sh
 bash ~/MMEJ/seq_extract/_0_script/5_softclip_seq_extract.sh
 
 cd  ~/MMEJ/seq_extract/file want top find the microhomology
-python3 01_overlap_repeat_1sample_test_new.py
+python3 02_overlap_repeat_fullloop_test_new.py
