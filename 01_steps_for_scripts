@@ -1,3 +1,11 @@
+#01 input --could be chimeric cram/cram/chimeric bam/bam file
+
+#check if all the the chimeric cram/cram/chimeric bam/bam file do not have damage/EoF loss....
+bash 01_cram_file_check.sh
+#input-output-remap_bwa-igv snapshot  
+python3 02_reads_extarct_chimeric_cram_bam_fulloop_name_optimisation.py 
+(remember to change those thing 1.csv file-if name are match 2. check 3 output folders -igv/output/remap_bwa)
+
 #Seq_extract
 
 bash ~/MMEJ/seq_extract/_0_script/1_test_seq_extract.sh
